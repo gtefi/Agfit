@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGfit - Comunidad</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/comunidad.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        header, .navbar {
+            background-color: #000; /* Fondo negro para el header y la navbar */
+        }
+        .btn-success {
+            background-color: #acc02c;
+            border-color: #acc02c;
+        }
+        .btn-success:hover {
+            background-color: #8fab22;
+            border-color: #8fab22;
+        }
+        .consulta strong, .respuesta strong {
+            color: #acc02c; /* Color para p strong */
+        }
+        .consulta p, .respuesta p {
+            color: #fff; /* Color para p blancos */
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="../index.html"><img src="../assets/img/logo.jpeg" alt="logo de la página" class="logo"></a>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="./Recursos.html">Recursos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="./Programas.html">Programas</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="./Comunidad.html">Comunidad</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="./Contacto.html">Contacto</a></li>
+                        <li class="nav-item"><button class="btn btn-success ml-3">Log In</button></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container py-4">
+        <section class="comunidad text-center">
+            <h1>COMUNIDAD</h1>
+            <div class="ask-agfit my-4">
+                <h2>PREGÚNTALE A AGfit</h2>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Escribe tu pregunta aquí...">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="button">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="consultas">
+                <div class="consulta d-flex align-items-start mb-4">
+                    <img src="../assets/img/User1.png" alt="User 1" class="rounded-circle mr-3" style="width: 60px;">
+                    <div>
+                        <p><strong>¿Qué rutina recomiendan para ganar masa muscular?</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="respuesta d-flex align-items-start mb-4">
+                    <img src="../assets/img/AGfit.png" alt="AGfit" class="rounded-circle mr-3" style="width: 60px;">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="consulta d-flex align-items-start mb-4">
+                    <img src="../assets/img/User2.png" alt="User 2" class="rounded-circle mr-3" style="width: 60px;">
+                    <div>
+                        <p><strong>¿Cuál es el mejor ejercicio para quemar grasa abdominal?</strong></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="respuesta d-flex align-items-start mb-4">
+                    <img src="../assets/img/AGfit.png" alt="AGfit" class="rounded-circle mr-3" style="width: 60px;">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4>Contactanos</h4>
+                    <p>Dirección: 2525 Amenabar, CABA, Buenos Aires</p>
+                    <p>Tel: (+54) 11 4456-7890</p>
+                    <p>Email: agfit@gmail.com</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Síguenos</h4>
+                    <a href="https://www.facebook.com" target="_blank" class="text-white">Facebook</a><br>
+                    <a href="https://www.twitter.com" target="_blank" class="text-white">Twitter</a><br>
+                    <a href="https://www.instagram.com" target="_blank" class="text-white">Instagram</a>
+                </div>
+                <div class="col-md-4 newsletter">
+                    <h4>Suscríbete</h4>
+                    <form>
+                        <input type="email" class="form-control mb-2" placeholder="Introduce tu email">
+                        <button type="submit" class="btn btn-success btn-block">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom text-center mt-4">
+                <p>&copy; 2024 AGfit. Todos los derechos reservados.</p>
+                <p><a href="#" class="text-white">Política de Privacidad</a> | <a href="#" class="text-white">Términos y Condiciones</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
